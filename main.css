@@ -99,20 +99,28 @@ padding: 10px;
 text-align: center;
 }
 
-#footer {
-position: fixed;
-bottom: 0;
-left: 0;
-width: 100%;
-background-color: #333;
-color: #fff;
-padding: 10px;
-text-align: left;
-}
+
 
 .pdf-container {
 display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
+}
+
+/* Style the footer */
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left; /* Align the text to the left */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+#footer p {
+  margin: 0;
 }
