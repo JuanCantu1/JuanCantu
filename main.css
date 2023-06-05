@@ -113,7 +113,7 @@ height: 100vh;
   background-color: #333;
   color: #fff;
   padding: 10px;
-  text-align: left; /* Align the text to the left */
+  text-align: left;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -123,4 +123,29 @@ height: 100vh;
 
 #footer p {
   margin: 0;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-section form label,
+.contact-section form input,
+.contact-section form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact-section form input[type="submit"] {
+  width: auto;
+}
+
+.full-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
